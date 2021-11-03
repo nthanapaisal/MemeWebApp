@@ -4,7 +4,7 @@ Members:
 Supakjeera Thanapaisal
 Jonathan Kyle Becker
 Bryant G
-Vincent Pham
+Nuhia Vincent Pham
 _____________________________________________________________________________________________________________
 Creat env:
     python3 -m venv venv
