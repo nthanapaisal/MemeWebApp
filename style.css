@@ -1,0 +1,61 @@
+
+.background{
+    background-color: transparent;
+}
+.title{
+    text-align: center;
+    padding-top: 300px;
+}
+
+.titleColor{
+    color: lightsalmon;
+}
+.subtitleColor{
+    color: lightblue;
+    margin: 10px;
+    font-size: 29px;
+}
+.button{
+    margin-top: 20px;
+    height: 50px;
+    width: 150px;
+    font-size: 17px;
+    color: black;
+}
+.meme {
+    background-color: grey;
+    width: 50%;
+    height: 50%;
+    border: 2px solid black;
+    padding: 50px;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.generatorButton {
+    display: block;
+    width: 15%;
+    border: none;
+    background-color: green;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.generatorButton:hover {
+    background-color: rgb(129, 216, 129);
+    color: black;
+}
+
+.appTitle {
+    padding-top: 30px;
+    margin-top: 5%;
+    text-align: center;
+    font-size: 50px;
+}
