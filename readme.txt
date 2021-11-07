@@ -3,7 +3,7 @@ Final Project, Cloud Computing.
 Members:
 Supakjeera Thanapaisal
 Jonathan Kyle Becker
-Bryant G
+Bryant Gutierrez
 Nuhia Vincent Pham
 _____________________________________________________________________________________________________________
 Creat env:
