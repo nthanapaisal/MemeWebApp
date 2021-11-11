@@ -15,8 +15,7 @@ dynamodb = boto3.resource('dynamodb',
                     aws_session_token=keys.AWS_SESSION_TOKEN,
                     region_name='us-east-2')
 
-def get_rand(db):
-    return random.randint(db.item_count)
+
 
 @app.route('/')
 def index():
@@ -26,7 +25,7 @@ def index():
 def get_items():
 
     table = dynamodb.Table('memes')
-    num = get_rand(table)
+    num = random.randint(0,table.item_count)
     try:
         response = table.get_item(Key={'pkeys': str(num)})
     except ClientError as e:
