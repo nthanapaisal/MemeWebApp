@@ -5,7 +5,7 @@ import configs.config as keys
 import logging
 import boto3
 from botocore.exceptions import ClientError
-
+import random
 
 app = Flask(__name__)
 
@@ -15,6 +15,9 @@ dynamodb = boto3.resource('dynamodb',
                     aws_session_token=keys.AWS_SESSION_TOKEN,
                     region_name='us-east-2')
 
+def get_rand(db):
+    return random.randint(db.item_count)
+
 @app.route('/')
 def index():
     return '/root page'
@@ -23,9 +26,9 @@ def index():
 def get_items():
 
     table = dynamodb.Table('memes')
-
+    num = get_rand(table)
     try:
-        response = table.get_item(Key={'pkeys': '1'})
+        response = table.get_item(Key={'pkeys': str(num)})
     except ClientError as e:
         print(e.response['Error']['Message'])
     else:
