@@ -5,19 +5,11 @@
     <title>Cloud Comp Final</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body class="background">
-<div class = "title">
-
-    <h1 class = "titleColor">
-        MEME GENERATOR
-    </h1>
-    <strong class="subtitleColor">
-        Group 1
-    </strong>
-    <br>
+<body class="gen-background">
+<div class = "image-display">
     <img src="{{ meme_img }}" alt="Meme">
     <form action="{{ url_for('get_items') }}" method="get">
-        <input type="submit" value="Start Here!"class="button">
+        <input type="submit" value="Start Here!"class="button_2">
     </form>
 </div>
 

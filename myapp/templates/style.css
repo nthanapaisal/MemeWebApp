@@ -1,26 +1,80 @@
+body {
+    background-color: #3c7d9b;
+}
+
+.gen-background {
+    background-image: url(./images/gen-screen.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 525px;
+}
+
+.image-display {
+    position: absolute;
+
+}
 
 .background{
-    background-color: transparent;
+    background-image: url(./images/belt.svg),url(./images/gears.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    background-size: cover, 100%;
 }
+
+.gen-button {
+    position: absolute;
+    left: 43%;
+    top: 20%;
+}
+
+form {
+    font-size: 20px;
+}
+
 .title{
     text-align: center;
     padding-top: 300px;
 }
 
 .titleColor{
-    color: lightsalmon;
+    color: white;
+    position: absolute;
+    left: 65%;
+    bottom: 87%;
+    font-size: 40px;
 }
 .subtitleColor{
-    color: lightblue;
+    color: #fcc947;
     margin: 10px;
     font-size: 29px;
+    position: absolute;
+    left: 87%;
+    bottom: 83%;
 }
 .button{
     margin-top: 20px;
-    height: 50px;
-    width: 150px;
-    font-size: 17px;
-    color: black;
+    height: 90px;
+    width: 190px;
+    font-size: 20px;
+    color: #fcc947;
+    font-weight: bold;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.button_2 {
+    height: 90px;
+    width: 190px;
+    font-size: 20px;
+    color: #fcc947;
+    font-weight: bold;
+    background-color: transparent;
+    text-decoration: underline;
+    position: absolute;
+    top: 25em;
+    left: 24em;
 }
 .meme {
     background-color: grey;
@@ -59,3 +113,4 @@
     text-align: center;
     font-size: 50px;
 }
+
