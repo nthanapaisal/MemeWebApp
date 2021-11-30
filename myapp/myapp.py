@@ -44,6 +44,6 @@ def get_items():
         return render_template('displayImage.html', meme_img = response['Item']['Image'])
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0')
+    app.run(debug=True, host='0.0.0.0', port=5000)
 
 
