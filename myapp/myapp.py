@@ -10,6 +10,7 @@ import random
 
 app = Flask(__name__)
 
+# Connect to DynamoDB
 dynamodb = boto3.resource('dynamodb',
                     aws_access_key_id=keys.ACCESS_KEY_ID,
                     aws_secret_access_key=keys.ACCESS_SECRET_KEY,
