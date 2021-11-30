@@ -7,10 +7,10 @@
 </head>
 <body class="gen-background">
     <div class = "gen-button-2">
-        <img class="meme-button" src="./images/generate-button.svg">
+        <img class="meme-button" src="{{ url_for('static',filename='images/generate-button.svg') }}">
     </div>
     <div class= "screen-image">
-        <img src="./images/gen-screen.svg">
+        <img src="{{ url_for('static',filename='images/gen-screen.svg') }}">
     </div>
 <div class = "image-display">
     <img class="meme-image" src="{{ meme_img }}" alt="Meme">
