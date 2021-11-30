@@ -25,3 +25,12 @@ Windows:
         To Undo
             > Set-ExecutionPolicy restricted    
         
+Run locally:
+    python3 myapp.py
+
+Run Docker:
+    docker-compose up -d
+    docker images
+    docker ps
+    docker ps -a
+    docker-compose down
