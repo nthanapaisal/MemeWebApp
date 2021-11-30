@@ -6,12 +6,20 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body class="gen-background">
+    <div class = "gen-button-2">
+        <img class="meme-button" src="./images/generate-button.svg">
+    </div>
+    <div class= "screen-image">
+        <img src="./images/gen-screen.svg">
+    </div>
 <div class = "image-display">
-    <img src="{{ meme_img }}" alt="Meme">
+    <img class="meme-image" src="{{ meme_img }}" alt="Meme">
     <form action="{{ url_for('get_items') }}" method="get">
-        <input type="submit" value="Start Here!"class="button_2">
+        <input type="submit" value="GENERATE"class="button_2">
     </form>
 </div>
-
+<div class="circle-1">
+    <span></span>
+</div>
 </body>
 </html>

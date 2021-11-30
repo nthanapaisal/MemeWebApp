@@ -1,12 +1,22 @@
+
 body {
     background-color: #3c7d9b;
 }
 
-.gen-background {
-    background-image: url(./images/gen-screen.svg);
+.gen-button {
     background-repeat: no-repeat;
-    background-position: center;
-    height: 525px;
+    z-index: 2;
+    position: relative;
+    width: 190px;    
+}
+
+.screen-image {
+    background-repeat: no-repeat;
+    width: 80%;
+    top: 12%;
+    z-index: 1;
+    position: absolute;
+    left: 10%;
 }
 
 .image-display {
@@ -23,11 +33,14 @@ body {
     background-size: cover, 100%;
 }
 
+/*
 .gen-button {
     position: absolute;
     left: 43%;
     top: 20%;
 }
+*/
+
 
 form {
     font-size: 20px;
@@ -45,6 +58,7 @@ form {
     bottom: 87%;
     font-size: 40px;
 }
+
 .subtitleColor{
     color: #fcc947;
     margin: 10px;
@@ -53,6 +67,7 @@ form {
     left: 87%;
     bottom: 83%;
 }
+
 .button{
     margin-top: 20px;
     height: 90px;
@@ -64,18 +79,59 @@ form {
     text-decoration: underline;
 }
 
+
+.meme-button {
+    position: absolute;
+    top: 31em;
+    z-index: 2;
+    height: 180px;
+    left: 33em
+}
+
 .button_2 {
-    height: 90px;
-    width: 190px;
-    font-size: 20px;
-    color: #fcc947;
+    height: 120px;
+    width: 120px;
+    font-size: 18px;
+    color: white;
     font-weight: bold;
     background-color: transparent;
     text-decoration: underline;
     position: absolute;
-    top: 25em;
-    left: 24em;
+    top: 28.7em;
+    left: 31.9em;
+    border-radius: 50%;
+    z-index: 2;
+
 }
+
+.circle-1 {
+    background: red;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    z-index: 3;
+    animation: blink 1s steps(1, end) infinite;
+}
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+
+.meme-image {
+    position: absolute;
+    left: 38em;
+    top: 17em;
+    z-index: 1;
+}
+
 .meme {
     background-color: grey;
     width: 50%;

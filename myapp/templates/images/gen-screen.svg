@@ -1,1 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 997.66 645.97"><defs><style>.cls-1{isolation:isolate;}.cls-2{fill:#134157;}.cls-3,.cls-7{fill:#b7d3db;}.cls-4{fill:#446271;}.cls-5,.cls-6{fill:#75a2a3;}.cls-6,.cls-7{mix-blend-mode:multiply;opacity:0.5;}</style></defs><g class="cls-1"><g id="Layer_1" data-name="Layer 1"><rect class="cls-2" width="997.66" height="480.62"/><rect class="cls-3" x="288.55" y="659.28" width="165.35" height="52.09" transform="translate(870.72 192.07) rotate(90)"/><rect class="cls-4" x="357.27" y="569.14" width="27.93" height="94.96" transform="translate(-431.21 865.83) rotate(-90)"/><rect class="cls-5" x="357.25" y="604.04" width="27.96" height="81.04" transform="translate(-459.17 893.76) rotate(-90)"/><rect class="cls-6" x="365.82" y="595.47" width="10.82" height="81.04" transform="translate(821.39 142.74) rotate(90)"/><rect class="cls-7" x="364" y="639.72" width="14.45" height="52.09" transform="translate(851.16 172.51) rotate(90)"/></g></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 997.7 591" style="enable-background:new 0 0 997.7 591;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#B7D3DB;}
+	.st1{fill:#134157;}
+	.st2{fill:#446271;}
+	.st3{fill:#75A2A3;}
+	.st4{opacity:0.5;fill:#75A2A3;enable-background:new    ;}
+	.st5{opacity:0.5;fill:#B7D3DB;enable-background:new    ;}
+</style>
+<g>
+	<rect x="159.3" y="417.5" class="st0" width="52.1" height="173.5"/>
+</g>
+<rect class="st1" width="997.7" height="377.9"/>
+<rect x="137.9" y="378" class="st2" width="95" height="22"/>
+<rect x="144.9" y="399.9" class="st3" width="81" height="22"/>
+<rect x="144.9" y="413.1" class="st4" width="81" height="8.8"/>
+<rect x="159.3" y="536.5" class="st5" width="52.1" height="14.5"/>
+</svg>
