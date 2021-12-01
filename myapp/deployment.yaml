@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: meme-gen
-          image: 798832556350.dkr.ecr.us-east-2.amazonaws.com/ecr_app_test:latest
+          image: 798832556350.dkr.ecr.us-east-2.amazonaws.com/ecr_memegen_repo
           ports:
             - containerPort: 5000
